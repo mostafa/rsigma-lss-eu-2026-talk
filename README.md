@@ -2,6 +2,8 @@
 
 Materials for the Linux Security Summit Europe 2026 talk, "Detection Engineering with RSigma."
 
+[Talk page on the Linux Security Summit Europe 2026 website](https://lsseu2026.sched.com/event/2WHc4)
+
 The talk follows one Linux detection from auditd and Tetragon telemetry through normalization, portable Sigma evaluation, stateful correlation, fixture-based testing, and deployment.
 
 ## Layout
