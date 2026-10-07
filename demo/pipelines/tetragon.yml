@@ -1,0 +1,13 @@
+name: Tetragon Process Events
+priority: 10
+transformations:
+  - id: tetragon_process_fields
+    type: field_name_mapping
+    mapping:
+      Image: process_exec.process.binary
+      CommandLine: demo.command_line
+      ParentImage: process_exec.parent.binary
+    rule_conditions:
+      - type: logsource
+        product: linux
+        category: process_creation

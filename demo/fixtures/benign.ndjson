@@ -1,0 +1,4 @@
+{"@timestamp":"2026-10-04T11:00:00Z","source_type":"auditd","Host":"lss-demo","User":"1001","type":"EXECVE","a0":"ls","a1":"-la","audit_id":"2000.001:1"}
+{"@timestamp":"2026-10-04T11:00:02Z","source_type":"tetragon","Host":"lss-demo","User":"1001","process_exec":{"process":{"binary":"/usr/bin/printf","uid":1001},"parent":{"binary":"/usr/bin/bash"}},"demo":{"command_line":"printf health-check"}}
+{"@timestamp":"2026-10-04T11:00:04Z","source_type":"auditd","Host":"lss-demo","User":"1001","type":"EXECVE","a0":"stat","a1":"/tmp","audit_id":"2004.001:2"}
+{"@timestamp":"2026-10-04T11:00:06Z","source_type":"tetragon","Host":"lss-demo","User":"1001","process_exec":{"process":{"binary":"/usr/bin/sleep","uid":1001},"parent":{"binary":"/usr/bin/bash"}},"demo":{"command_line":"sleep 1"}}

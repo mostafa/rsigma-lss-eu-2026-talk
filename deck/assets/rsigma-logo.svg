@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1011" height="693" viewBox="83 77 1011 693" role="img" aria-label="RSigma">
+  <title>RSigma</title>
+  <defs>
+    <linearGradient id="rsg" gradientUnits="userSpaceOnUse" x1="0" y1="150" x2="0" y2="704">
+      <stop offset="0" stop-color="#fea229"/>
+      <stop offset="0.5" stop-color="#fb8002"/>
+      <stop offset="1" stop-color="#e36401"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" stroke="#000000" stroke-width="78" stroke-linejoin="round">
+    <path stroke-linejoin="miter" d="M142,704V285A115 115 0 0 1 248,170.4V255H257V704Z"/>
+    <path d="M248,250.4A215 215 0 0 1 610,222L530,301.6A152.5 152.5 0 0 0 258,396.3H200V250.4Z"/>
+  </g>
+  <g fill="url(#rsg)" fill-rule="evenodd">
+    <path d="M142,704V285A115 115 0 0 1 248,170.4V255H257V704Z"/>
+    <path d="M248,250.4A215 215 0 0 1 610,222L530,301.6A152.5 152.5 0 0 0 258,396.3H200V250.4Z"/>
+  </g>
+  <g fill="none" stroke="#000000" stroke-width="78" stroke-linejoin="round">
+    <path d="M744,153.5A293.5 293.5 0 0 0 450.5,447A258 265 0 0 0 966.5,447A258 265 0 0 0 964.2,411.5A163 163 0 0 0 801,270L775,252L764,163.5ZM548.5,446A165.5 176 0 0 1 879.5,446A165.5 176 0 0 1 548.5,446Z"/>
+    <path d="M744,155H1035.2A171 171 0 0 1 948.3,252H744Z"/>
+  </g>
+  <g fill="url(#rsg)" fill-rule="evenodd">
+    <path d="M744,153.5A293.5 293.5 0 0 0 450.5,447A258 265 0 0 0 966.5,447A258 265 0 0 0 964.2,411.5A163 163 0 0 0 801,270L775,252L764,163.5ZM548.5,446A165.5 176 0 0 1 879.5,446A165.5 176 0 0 1 548.5,446Z"/>
+    <path d="M744,155H1035.2A171 171 0 0 1 948.3,252H744Z"/>
+  </g>
+  <path fill="#000000" d="M110,257.2L257,355L110,336.8ZM110,379.9L257,500.5L110,476.5ZM110,529.7L240,604L110,593.3ZM872,401L975,361V421ZM856,511L975,445V504Z"/>
+</svg>

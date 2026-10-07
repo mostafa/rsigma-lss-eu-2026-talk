@@ -1,0 +1,43 @@
+#cloud-config
+hostname: rsigma-lss
+manage_etc_hosts: true
+
+users:
+  - default
+  - name: lssdemo
+    uid: 1001
+    gecos: LSS Demo User
+    shell: /bin/bash
+    lock_passwd: true
+
+package_update: true
+packages:
+  - auditd
+  - audispd-plugins
+  - ca-certificates
+  - curl
+  - jq
+  - netcat-openbsd
+  - python3
+
+write_files:
+  - path: /etc/audit/rules.d/rsigma-demo.rules
+    owner: root:root
+    content: |
+      -D
+      -b 8192
+      -f 1
+      -a always,exit -F arch=b64 -S execve -F uid=1001 -k rsigma-demo
+  - path: /usr/local/share/rsigma-talk/payload
+    owner: root:root
+    content: |
+      This is a harmless payload used by the LSS EU 2026 RSigma demonstration.
+
+runcmd:
+  - [chmod, "0640", /etc/audit/rules.d/rsigma-demo.rules]
+  - [chmod, "0644", /usr/local/share/rsigma-talk/payload]
+  - [mkdir, -p, /var/log/laurel, /var/log/rsigma-talk, /var/lib/rsigma-talk]
+  - [chown, -R, "lssdemo:lssdemo", /var/log/rsigma-talk, /var/lib/rsigma-talk]
+  - [augenrules, --load]
+  - [systemctl, enable, --now, auditd]
+  - [cloud-init-per, once, rsigma-talk-ready, touch, /var/lib/rsigma-talk/cloud-init-ready]

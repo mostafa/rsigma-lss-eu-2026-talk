@@ -1,0 +1,29 @@
+schemas:
+  - name: auditd_json
+    specificity: 100
+    match:
+      - equals:
+          field: source_type
+          value: auditd
+  - name: tetragon
+    specificity: 100
+    match:
+      - equals:
+          field: source_type
+          value: tetragon
+
+routing:
+  on_unknown: error
+  default_pipelines: []
+  bindings:
+    - schema: auditd_json
+      pipelines: []
+      logsource:
+        product: linux
+        service: auditd
+    - schema: tetragon
+      pipelines:
+        - demo/pipelines/tetragon.yml
+      logsource:
+        product: linux
+        category: process_creation

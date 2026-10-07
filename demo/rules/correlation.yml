@@ -1,0 +1,26 @@
+title: Linux Discovery-to-Execution Sequence
+id: 59382cfc-c22e-4c3b-a9c4-48a87667a215
+status: test
+description: Detects an ordered sequence of discovery, download, permission change, and network utility execution by one user on one Linux host.
+author: Mostafa Moradian
+date: 2026-10-04
+references:
+    - https://github.com/timescale/rsigma
+tags:
+    - attack.discovery
+    - attack.execution
+    - attack.command-and-control
+generate: true
+rsigma.action: reset
+correlation:
+    type: temporal_ordered
+    rules:
+        - 9a0d8ca0-2385-4020-b6c6-cb6153ca56f3
+        - ea34fb97-e2c4-4afb-810f-785e4459b194
+        - 74c01ace-0152-4094-8ae2-6fd776dd43e5
+        - 3e102cd9-a70d-4a7a-9508-403963092f31
+    group-by:
+        - Host
+        - User
+    timespan: 60s
+level: critical

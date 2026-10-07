@@ -1,0 +1,11 @@
+.DS_Store
+__pycache__/
+*.pyc
+.marp/
+deck/talk.html
+deck/talk.pdf
+demo/.state/
+demo/output/
+recordings/*.cast
+recordings/*.mp4
+!recordings/.gitkeep

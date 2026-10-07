@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530" style="width:100%;height:100%" font-family="Helvetica, Arial, sans-serif" role="img" aria-label="RSigma detection engineering loop">
+  <defs>
+    <linearGradient id="gradL" gradientUnits="userSpaceOnUse" x1="0" y1="200" x2="0" y2="320">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="gradR" gradientUnits="userSpaceOnUse" x1="0" y1="200" x2="0" y2="320">
+      <stop offset="0" stop-color="#fdab4a"/>
+      <stop offset="1" stop-color="#fb8002"/>
+    </linearGradient>
+    <linearGradient id="gradA" gradientUnits="userSpaceOnUse" x1="440" y1="320" x2="560" y2="200">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="0.44" stop-color="#3b82f6"/>
+      <stop offset="0.56" stop-color="#fb923c"/>
+      <stop offset="1" stop-color="#fdab4a"/>
+    </linearGradient>
+    <linearGradient id="gradB" gradientUnits="userSpaceOnUse" x1="560" y1="320" x2="440" y2="200">
+      <stop offset="0" stop-color="#fb8002"/>
+      <stop offset="0.44" stop-color="#fb923c"/>
+      <stop offset="0.56" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#60a5fa"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#0f172a" flood-opacity="0.12"/>
+    </filter>
+    <filter id="ribbon" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0f172a" flood-opacity="0.22"/>
+    </filter>
+    <mask id="gap" maskUnits="userSpaceOnUse" x="0" y="0" width="1000" height="530">
+      <rect x="0" y="0" width="1000" height="530" fill="#ffffff"/>
+      <path d="M476,284 L524,236" stroke="#000000" stroke-width="30"/>
+    </mask>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    </style>
+  </defs>
+
+  <rect fill="#ffffff" x="0" y="0" width="1000" height="530"/>
+
+  <g transform="translate(24,12) scale(0.05)">
+    <defs><linearGradient id="logoGrad" gradientUnits="userSpaceOnUse" x1="0" y1="150" x2="0" y2="704"><stop offset="0.0" stop-color="#fea229"/><stop offset="0.5" stop-color="#fb8002"/><stop offset="1.0" stop-color="#e36401"/></linearGradient></defs>
+    <g fill="none" stroke="#0f172a" stroke-width="78" stroke-linejoin="round"><path stroke-linejoin="miter" d="M142,704V285A115 115 0 0 1 248,170.4V255H257V704Z"/><path d="M248,250.4A215 215 0 0 1 610,222L530,301.6A152.5 152.5 0 0 0 258,396.3H200V250.4Z"/></g>
+    <g fill="url(#logoGrad)" fill-rule="evenodd"><path d="M142,704V285A115 115 0 0 1 248,170.4V255H257V704Z"/><path d="M248,250.4A215 215 0 0 1 610,222L530,301.6A152.5 152.5 0 0 0 258,396.3H200V250.4Z"/></g>
+    <g fill="none" stroke="#0f172a" stroke-width="78" stroke-linejoin="round"><path d="M744,153.5A293.5 293.5 0 0 0 450.5,447A258 265 0 0 0 966.5,447A258 265 0 0 0 964.2,411.5A163 163 0 0 0 801,270L775,252L764,163.5ZM548.5,446A165.5 176 0 0 1 879.5,446A165.5 176 0 0 1 548.5,446Z"/><path d="M744,155H1035.2A171 171 0 0 1 948.3,252H744Z"/></g>
+    <g fill="url(#logoGrad)" fill-rule="evenodd"><path d="M744,153.5A293.5 293.5 0 0 0 450.5,447A258 265 0 0 0 966.5,447A258 265 0 0 0 964.2,411.5A163 163 0 0 0 801,270L775,252L764,163.5ZM548.5,446A165.5 176 0 0 1 879.5,446A165.5 176 0 0 1 548.5,446Z"/><path d="M744,155H1035.2A171 171 0 0 1 948.3,252H744Z"/></g>
+    <path fill="#0f172a" d="M110,257.2L257,355L110,336.8ZM110,379.9L257,500.5L110,476.5ZM110,529.7L240,604L110,593.3ZM872,401L975,361V421ZM856,511L975,445V504Z"/>
+  </g>
+  <text fill="#0f172a" x="92" y="33" font-size="20" font-weight="bold">RSigma</text>
+  <text fill="#64748b" x="92" y="51" font-size="12.5">Detection engineering loop</text>
+  <path d="M26,66 H974" stroke="#eef2f7" stroke-width="1"/>
+
+  <g filter="url(#ribbon)" fill="none" stroke-width="20">
+    <path d="M440,200 A84.853,84.853 0 1 0 440,320" stroke="url(#gradL)"/>
+    <path d="M560,200 A84.853,84.853 0 1 1 560,320" stroke="url(#gradR)"/>
+    <path d="M561.5,321.5 L438.5,198.5" stroke="url(#gradB)" mask="url(#gap)"/>
+    <path d="M438.5,321.5 L561.5,198.5" stroke="url(#gradA)"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.95">
+    <path d="M-3,-5.5 L3.5,0 L-3,5.5" transform="translate(320,200) rotate(135)"/>
+    <path d="M-3,-5.5 L3.5,0 L-3,5.5" transform="translate(320,320) rotate(45)"/>
+    <path d="M-3,-5.5 L3.5,0 L-3,5.5" transform="translate(680,200) rotate(45)"/>
+    <path d="M-3,-5.5 L3.5,0 L-3,5.5" transform="translate(680,320) rotate(135)"/>
+    <path d="M-3,-5.5 L3.5,0 L-3,5.5" transform="translate(461.6,298.4) rotate(-45)"/>
+    <path d="M-3,-5.5 L3.5,0 L-3,5.5" transform="translate(538.4,298.4) rotate(-135)"/>
+  </g>
+  <text fill="#1e3a8a" x="380" y="257" font-size="18" font-weight="bold" text-anchor="middle">Engineer</text>
+  <text fill="#64748b" x="380" y="275" font-size="10.5" text-anchor="middle">detection-as-code</text>
+  <text fill="#9a3412" x="620" y="257" font-size="18" font-weight="bold" text-anchor="middle">Operate</text>
+  <text fill="#64748b" x="620" y="275" font-size="10.5" text-anchor="middle">security operations</text>
+
+  <g id="stage-author">
+    <path d="M264,136 H372 Q380,136 380,144 V160" fill="none" stroke="#bfdbfe" stroke-width="1.5"/>
+    <circle cx="264" cy="136" r="3" fill="#60a5fa"/>
+    <circle cx="380" cy="175.15" r="14" fill="#ffffff" stroke="#3b82f6" stroke-width="2.5" filter="url(#soft)"/>
+    <text fill="#1d4ed8" x="380" y="179.40" font-size="12" font-weight="bold" text-anchor="middle">1</text>
+    <rect fill="#ffffff" stroke="#e5e7eb" stroke-width="1" x="26" y="82" width="238" height="108" rx="10" filter="url(#soft)"/>
+    <path fill="#eff6ff" d="M26.5,92 a9.5,9.5 0 0 1 9.5,-9.5 h218 a9.5,9.5 0 0 1 9.5,9.5 v20 h-237 Z"/>
+    <circle cx="46" cy="97" r="9.5" fill="#3b82f6"/>
+    <text x="46" y="101" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff">1</text>
+    <text fill="#1e3a8a" x="62" y="101.5" font-size="13" font-weight="bold">Author</text>
+    <circle cx="40" cy="127.3" r="2" fill="#93c5fd"/>
+    <text fill="#374151" x="48" y="131" font-size="10.5"><tspan class="mono" fill="#1d4ed8">rule draft</tspan> rules from exemplar logs</text>
+    <circle cx="40" cy="142.3" r="2" fill="#93c5fd"/>
+    <text fill="#374151" x="48" y="146" font-size="10.5"><tspan class="mono" fill="#1d4ed8">rule tune</tspan> FP/TP &#8594; verified filter</text>
+    <circle cx="40" cy="157.3" r="2" fill="#93c5fd"/>
+    <text fill="#374151" x="48" y="161" font-size="10.5"><tspan class="mono" fill="#1d4ed8">rule reverse</tspan> Lucene query &#8594; Sigma</text>
+    <circle cx="40" cy="172.3" r="2" fill="#93c5fd"/>
+    <text fill="#6b7280" x="48" y="176" font-size="10.5">lint &#183; doc &#183; LSP &#183; MCP for AI agents</text>
+  </g>
+  <g id="stage-test">
+    <path d="M264,260 H280" fill="none" stroke="#bfdbfe" stroke-width="1.5"/>
+    <circle cx="264" cy="260" r="3" fill="#60a5fa"/>
+    <circle cx="295.15" cy="260" r="14" fill="#ffffff" stroke="#3b82f6" stroke-width="2.5" filter="url(#soft)"/>
+    <text fill="#1d4ed8" x="295.15" y="264.25" font-size="12" font-weight="bold" text-anchor="middle">2</text>
+    <rect fill="#ffffff" stroke="#e5e7eb" stroke-width="1" x="26" y="206" width="238" height="108" rx="10" filter="url(#soft)"/>
+    <path fill="#eff6ff" d="M26.5,216 a9.5,9.5 0 0 1 9.5,-9.5 h218 a9.5,9.5 0 0 1 9.5,9.5 v20 h-237 Z"/>
+    <circle cx="46" cy="221" r="9.5" fill="#3b82f6"/>
+    <text x="46" y="225" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff">2</text>
+    <text fill="#1e3a8a" x="62" y="225.5" font-size="13" font-weight="bold">Test</text>
+    <circle cx="40" cy="251.3" r="2" fill="#93c5fd"/>
+    <text fill="#374151" x="48" y="255" font-size="10.5"><tspan class="mono" fill="#1d4ed8">engine explain</tspan> why (no) match</text>
+    <circle cx="40" cy="266.3" r="2" fill="#93c5fd"/>
+    <text fill="#374151" x="48" y="270" font-size="10.5"><tspan class="mono" fill="#1d4ed8">rule backtest</tspan> corpus regression</text>
+    <circle cx="40" cy="281.3" r="2" fill="#93c5fd"/>
+    <text fill="#374151" x="48" y="285" font-size="10.5"><tspan class="mono" fill="#1d4ed8">pipeline diff</tspan> transform preview</text>
+    <circle cx="40" cy="296.3" r="2" fill="#93c5fd"/>
+    <text fill="#6b7280" x="48" y="300" font-size="10.5"><tspan class="mono">engine eval</tspan> one-shot evaluation</text>
+  </g>
+  <g id="stage-deploy">
+    <path d="M264,384 H372 Q380,384 380,376 V360" fill="none" stroke="#bfdbfe" stroke-width="1.5"/>
+    <circle cx="264" cy="384" r="3" fill="#60a5fa"/>
+    <circle cx="380" cy="344.85" r="14" fill="#ffffff" stroke="#2563eb" stroke-width="2.5" filter="url(#soft)"/>
+    <text fill="#1d4ed8" x="380" y="349.10" font-size="12" font-weight="bold" text-anchor="middle">3</text>
+    <rect fill="#ffffff" stroke="#e5e7eb" stroke-width="1" x="26" y="330" width="238" height="108" rx="10" filter="url(#soft)"/>
+    <path fill="#eff6ff" d="M26.5,340 a9.5,9.5 0 0 1 9.5,-9.5 h218 a9.5,9.5 0 0 1 9.5,9.5 v20 h-237 Z"/>
+    <circle cx="46" cy="345" r="9.5" fill="#2563eb"/>
+    <text x="46" y="349" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff">3</text>
+    <text fill="#1e3a8a" x="62" y="349.5" font-size="13" font-weight="bold">Deploy</text>
+    <circle cx="40" cy="375.3" r="2" fill="#93c5fd"/>
+    <text fill="#374151" x="48" y="379" font-size="10.5"><tspan class="mono" fill="#1d4ed8">rsigma-action</tspan> PR gate in CI</text>
+    <circle cx="40" cy="390.3" r="2" fill="#93c5fd"/>
+    <text fill="#374151" x="48" y="394" font-size="10.5"><tspan class="mono" fill="#1d4ed8">rsigma config</tspan> layered defaults</text>
+    <circle cx="40" cy="405.3" r="2" fill="#93c5fd"/>
+    <text fill="#374151" x="48" y="409" font-size="10.5"><tspan fill="#111827" font-weight="bold">hot reload</tspan> rules + pipelines</text>
+    <circle cx="40" cy="420.3" r="2" fill="#93c5fd"/>
+    <text fill="#6b7280" x="48" y="424" font-size="10.5">Docker &#183; signed release binaries</text>
+  </g>
+  <g id="stage-detect">
+    <path d="M736,136 H628 Q620,136 620,144 V160" fill="none" stroke="#fed7aa" stroke-width="1.5"/>
+    <circle cx="736" cy="136" r="3" fill="#fb923c"/>
+    <circle cx="620" cy="175.15" r="14" fill="#ffffff" stroke="#fb923c" stroke-width="2.5" filter="url(#soft)"/>
+    <text fill="#c2410c" x="620" y="179.40" font-size="12" font-weight="bold" text-anchor="middle">4</text>
+    <rect fill="#ffffff" stroke="#e5e7eb" stroke-width="1" x="736" y="82" width="238" height="108" rx="10" filter="url(#soft)"/>
+    <path fill="#fff7ed" d="M736.5,92 a9.5,9.5 0 0 1 9.5,-9.5 h218 a9.5,9.5 0 0 1 9.5,9.5 v20 h-237 Z"/>
+    <circle cx="756" cy="97" r="9.5" fill="#fb923c"/>
+    <text x="756" y="101" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff">4</text>
+    <text fill="#9a3412" x="772" y="101.5" font-size="13" font-weight="bold">Detect</text>
+    <circle cx="750" cy="127.3" r="2" fill="#fdba74"/>
+    <text fill="#374151" x="758" y="131" font-size="10.5"><tspan class="mono" fill="#c2410c">engine daemon</tspan> streaming &#183; RBAC API</text>
+    <circle cx="750" cy="142.3" r="2" fill="#fdba74"/>
+    <text fill="#374151" x="758" y="146" font-size="10.5"><tspan fill="#111827" font-weight="bold">correlation</tspan> windows &#183; chains</text>
+    <circle cx="750" cy="157.3" r="2" fill="#fdba74"/>
+    <text fill="#374151" x="758" y="161" font-size="10.5">JSON &#183; syslog &#183; CEF &#183; EVTX &#183; OTLP</text>
+    <circle cx="750" cy="172.3" r="2" fill="#fdba74"/>
+    <text fill="#6b7280" x="758" y="176" font-size="10.5">schema routing &#183; discovery &#183; cloud</text>
+  </g>
+  <g id="stage-alert">
+    <path d="M736,260 H720" fill="none" stroke="#fed7aa" stroke-width="1.5"/>
+    <circle cx="736" cy="260" r="3" fill="#fb923c"/>
+    <circle cx="704.85" cy="260" r="14" fill="#ffffff" stroke="#f97316" stroke-width="2.5" filter="url(#soft)"/>
+    <text fill="#c2410c" x="704.85" y="264.25" font-size="12" font-weight="bold" text-anchor="middle">5</text>
+    <rect fill="#ffffff" stroke="#e5e7eb" stroke-width="1" x="736" y="206" width="238" height="108" rx="10" filter="url(#soft)"/>
+    <path fill="#fff7ed" d="M736.5,216 a9.5,9.5 0 0 1 9.5,-9.5 h218 a9.5,9.5 0 0 1 9.5,9.5 v20 h-237 Z"/>
+    <circle cx="756" cy="221" r="9.5" fill="#f97316"/>
+    <text x="756" y="225" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff">5</text>
+    <text fill="#9a3412" x="772" y="225.5" font-size="13" font-weight="bold">Alert &amp; Triage</text>
+    <circle cx="750" cy="251.3" r="2" fill="#fdba74"/>
+    <text fill="#374151" x="758" y="255" font-size="10.5"><tspan fill="#111827" font-weight="bold">enrichment</tspan> GeoIP &#183; intel &#183; asset</text>
+    <circle cx="750" cy="266.3" r="2" fill="#fdba74"/>
+    <text fill="#374151" x="758" y="270" font-size="10.5"><tspan fill="#111827" font-weight="bold">risk-based alerting</tspan> entity score</text>
+    <circle cx="750" cy="281.3" r="2" fill="#fdba74"/>
+    <text fill="#374151" x="758" y="285" font-size="10.5">dedup &#183; silence &#183; inhibit &#183; group</text>
+    <circle cx="750" cy="296.3" r="2" fill="#fdba74"/>
+    <text fill="#6b7280" x="758" y="300" font-size="10.5">webhooks: Slack &#183; PagerDuty &#183; ...</text>
+  </g>
+  <g id="stage-measure">
+    <path d="M736,384 H628 Q620,384 620,376 V360" fill="none" stroke="#fed7aa" stroke-width="1.5"/>
+    <circle cx="736" cy="384" r="3" fill="#fb923c"/>
+    <circle cx="620" cy="344.85" r="14" fill="#ffffff" stroke="#ea580c" stroke-width="2.5" filter="url(#soft)"/>
+    <text fill="#c2410c" x="620" y="349.10" font-size="12" font-weight="bold" text-anchor="middle">6</text>
+    <rect fill="#ffffff" stroke="#e5e7eb" stroke-width="1" x="736" y="330" width="238" height="108" rx="10" filter="url(#soft)"/>
+    <path fill="#fff7ed" d="M736.5,340 a9.5,9.5 0 0 1 9.5,-9.5 h218 a9.5,9.5 0 0 1 9.5,9.5 v20 h-237 Z"/>
+    <circle cx="756" cy="345" r="9.5" fill="#ea580c"/>
+    <text x="756" y="349" font-size="11" font-weight="bold" text-anchor="middle" fill="#ffffff">6</text>
+    <text fill="#9a3412" x="772" y="349.5" font-size="13" font-weight="bold">Measure</text>
+    <circle cx="750" cy="375.3" r="2" fill="#fdba74"/>
+    <text fill="#374151" x="758" y="379" font-size="10.5"><tspan class="mono" fill="#c2410c">rule coverage</tspan> ATT&amp;CK Navigator</text>
+    <circle cx="750" cy="390.3" r="2" fill="#fdba74"/>
+    <text fill="#374151" x="758" y="394" font-size="10.5"><tspan class="mono" fill="#c2410c">rule visibility</tspan> DeTT&amp;CT export</text>
+    <circle cx="750" cy="405.3" r="2" fill="#fdba74"/>
+    <text fill="#374151" x="758" y="409" font-size="10.5"><tspan fill="#111827" font-weight="bold">field observability</tspan> gap signals</text>
+    <circle cx="750" cy="420.3" r="2" fill="#fdba74"/>
+    <text fill="#6b7280" x="758" y="424" font-size="10.5">scorecard &#183; FP ratio &#183; dispositions</text>
+  </g>
+  <g id="stage-hunt">
+    <path d="M490,308 V394" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+    <path d="M510,396 V310" fill="none" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrow)"/>
+    <text fill="#64748b" x="482" y="358" font-size="10.5" text-anchor="end">convert</text>
+    <text fill="#64748b" x="518" y="358" font-size="10.5">reverse</text>
+    <rect fill="#ffffff" stroke="#e5e7eb" stroke-width="1" x="392" y="402" width="216" height="108" rx="10" filter="url(#soft)"/>
+    <path fill="#f1f5f9" d="M392.5,412 a9.5,9.5 0 0 1 9.5,-9.5 h196 a9.5,9.5 0 0 1 9.5,9.5 v20 h-215 Z"/>
+    <circle cx="412" cy="417" r="9.5" fill="#475569"/>
+    <g fill="none" stroke="#ffffff" stroke-width="1.8" stroke-linecap="round"><circle cx="410.8" cy="415.8" r="3.6"/><path d="M413.4,418.4 L416.2,421.2"/></g>
+    <text fill="#334155" x="428" y="421.5" font-size="13" font-weight="bold">Hunt</text>
+    <circle cx="406" cy="447.3" r="2" fill="#cbd5e1"/>
+    <text fill="#374151" x="414" y="451" font-size="10.5"><tspan class="mono" fill="#334155">backend convert</tspan> PostgreSQL SQL</text>
+    <circle cx="406" cy="462.3" r="2" fill="#cbd5e1"/>
+    <text fill="#374151" x="414" y="466" font-size="10.5"><tspan class="mono" fill="#334155">sigma-cli</tspan> Splunk &#183; 30+ backends</text>
+    <circle cx="406" cy="477.3" r="2" fill="#cbd5e1"/>
+    <text fill="#374151" x="414" y="481" font-size="10.5"><tspan class="mono" fill="#334155">rule fields</tspan> mapping catalog</text>
+    <circle cx="406" cy="492.3" r="2" fill="#cbd5e1"/>
+    <text fill="#6b7280" x="414" y="496" font-size="10.5" font-style="italic">findings feed new rules</text>
+  </g>
+</svg>

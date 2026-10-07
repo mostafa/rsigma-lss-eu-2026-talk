@@ -1,0 +1,33 @@
+defaults:
+  unexpected_detections: fail
+expectations:
+  - rule: 9a0d8ca0-2385-4020-b6c6-cb6153ca56f3
+    corpus: malicious.ndjson
+    exactly: 1
+  - rule: 9a0d8ca0-2385-4020-b6c6-cb6153ca56f3
+    corpus: benign.ndjson
+    exactly: 0
+  - rule: ea34fb97-e2c4-4afb-810f-785e4459b194
+    corpus: malicious.ndjson
+    exactly: 1
+  - rule: ea34fb97-e2c4-4afb-810f-785e4459b194
+    corpus: benign.ndjson
+    exactly: 0
+  - rule: 74c01ace-0152-4094-8ae2-6fd776dd43e5
+    corpus: malicious.ndjson
+    exactly: 1
+  - rule: 74c01ace-0152-4094-8ae2-6fd776dd43e5
+    corpus: benign.ndjson
+    exactly: 0
+  - rule: 3e102cd9-a70d-4a7a-9508-403963092f31
+    corpus: malicious.ndjson
+    exactly: 1
+  - rule: 3e102cd9-a70d-4a7a-9508-403963092f31
+    corpus: benign.ndjson
+    exactly: 0
+  - rule: 59382cfc-c22e-4c3b-a9c4-48a87667a215
+    corpus: malicious.ndjson
+    exactly: 1
+  - rule: 59382cfc-c22e-4c3b-a9c4-48a87667a215
+    corpus: benign.ndjson
+    exactly: 0
